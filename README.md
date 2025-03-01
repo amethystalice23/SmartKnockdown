@@ -9,15 +9,11 @@ As it stands it counts the number of targets that are knocked down as of power u
 
 Components required:
 * First you need all of the 3D printed Components
-* SG90S servo motors, standard 180° versions
-* IR beam break slot type sensors.
-* An ESP32 dev board, i used an ESP-WROOM-32 
+* SG90S servo motors, standard 180° versions [Aliexpress](https://www.aliexpress.com/item/1005006063061561.html)
+* IR beam break slot type sensors. [Aliexpress](https://www.aliexpress.com/item/1005006984775727.html)
+* An ESP32 dev board, i used an ESP-WROOM-32 [Aliexpress](https://www.aliexpress.com/item/1005007061953921.html)
 * A 5V power source such as a USB battery bank
 
 A computer USB port does not supply enough current to run all of the servos at once, so it is strongly recommended you suppliment the power with the power bank when debugging, for general use just the battery bank will work.
 
-https://www.aliexpress.com/item/1005006984775727.html
-https://www.aliexpress.com/item/1005006063061561.html
-https://www.aliexpress.com/item/1005007061953921.html
-
-
+Improvements welcome, submit a merge request
